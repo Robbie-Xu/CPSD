@@ -40,7 +40,7 @@ parser.add_argument('--seg', default='./data/', help='root path of partition fil
 parser.add_argument('--model', type=str, help='name of supported model (choose from \"101(ResNet101), x(ResNeXt), q2l, 101tf(ResNet101+TF), tres(TResNet)\")')
 parser.add_argument('--subnum', type=str, help='count of clusters(1,2,3,5,8...)')
 parser.add_argument('--part', default='',type=int, help='number of submodels')
-parser.add_argument('--partition', type=str, help='number to distinguish different partitions')
+parser.add_argument('--partition', type=str, default='0', help='number to distinguish different partitions')
 parser.add_argument('--typ', default='cluster',type=str, help='coocurrence(CPG) or cluster(DPG)')
 parser.add_argument('--dataset', type=str, default='coco', help='coco or nuswide')
 
