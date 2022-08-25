@@ -1,5 +1,5 @@
 # Introdunction
-PyTorch implementation of Boosting Multi-Label Image Classification with Complementary Parallel Self-Distillation, IJCAI 2022.
+PyTorch implementation of [Boosting Multi-Label Image Classification with Complementary Parallel Self-Distillation](https://arxiv.org/abs/2205.10986), IJCAI 2022.
 
 ## Abstract
 
